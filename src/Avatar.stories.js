@@ -8,6 +8,7 @@ export default {
   decorators: [withKnobs],
   parameters: {
     component: Avatar,
+    componentSubtitle: "Displays an image that represents a user or organization",
   },
 };
 
@@ -23,6 +24,9 @@ export const sizes = () => (
     <Avatar size="tiny" username="Tom Coleman" src="https://avatars2.githubusercontent.com/u/132554" />
   </div>
 );
+sizes.story = {
+  parameters: { docs: { storyDescription: "4 sizes are supported." } },
+};
 
 export const initials = () => (
   <div>
