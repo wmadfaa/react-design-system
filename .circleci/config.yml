@@ -17,7 +17,7 @@ jobs:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
-      - run: yarn test
+      - run: yarn test --passWithNoTests
       - run: yarn chromatic --exit-zero-on-changes
 workflows:
   build-and-test:
