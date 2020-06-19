@@ -65,7 +65,7 @@ export const typography = {
     black: "900",
   },
   size: {
-    s1: "13",
+    s1: "20",
     s2: "14",
     s3: "16",
     m1: "20",
