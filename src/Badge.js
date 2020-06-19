@@ -7,14 +7,14 @@ const BadgeWrapper = styled.div`
   display: inline-block;
   vertical-align: top;
   font-size: 17px;
-  line-height: 12px;
-  padding: 4px 12px;
+  /* line-height: 12px; */
+  /* padding: 4px 12px; */
   border-radius: 3em;
   font-weight: ${typography.weight.bold};
 
   svg {
-    height: 12px;
-    width: 12px;
+    height: 20px;
+    width: 20px;
     margin-right: 4px;
     margin-top: -2px;
   }
